@@ -1,32 +1,25 @@
-# 离线AI随声译 · 安装包下载
+# 离线AI随声译 · APK 下载
 
-作者：alexwuhao 制作 · alexwuhao@163.com
+alexwuhao 制作 · alexwuhao@163.com
 
-本仓库用于公开分发 Android APK、安装说明和校验文件。源码单独维护在私有仓库。
+本仓库公开提供安装包与说明，源码保存在独立的私有仓库。
 
-## v0.2.0 多语言调试版
+## 最新版 v0.2.1 · 温暖卡通版
 
-**[下载 Android APK](https://github.com/alexwuhao2001-gif/offline-ai-suishengyi-downloads/releases/download/v0.2.0/offline-ai-suishengyi-v0.2.0-debug.apk)**（约78 MiB，无需登录）
+**[下载 Android APK（无需登录）](https://github.com/alexwuhao2001-gif/offline-ai-suishengyi-downloads/releases/download/v0.2.1/offline-ai-suishengyi-v0.2.1-debug.apk)**
 
-[查看版本说明与所有附件](https://github.com/alexwuhao2001-gif/offline-ai-suishengyi-downloads/releases/tag/v0.2.0)
+[版本与安装说明](https://github.com/alexwuhao2001-gif/offline-ai-suishengyi-downloads/releases/tag/v0.2.1)
 
-### 安装
-
-下载 APK 后安装。已有第一版可直接覆盖安装，请勿先卸载，否则手机中已导入的模型和历史会被删除。首次安装需要允许对应来源安装应用。
-
-APK不包含大模型。首次使用须在应用的“设置→模型与离线资源”中准备Hy-MT2翻译模型和所需语音资源；安装资源后可断网使用。已有资源可以继续使用。
-
-### 功能与测试范围
-
-- 指定20种语言可独立选择输入和目标语言，默认中文→英文。
-- 持续收音，默认静音2秒后分段，可选3秒；连续记录面板，底部按钮固定。
+- 奶油白、森林绿、杏橙配色，小熊和小鸟陪伴交流；卡片首页与连续双语记录。
+- 同传停顿可选 **1、2、3 秒**，初始默认2秒，记住上次选择。
+- 20种语言文字互译，独立选择输入/目标语言；选择页支持搜索、确认和取消。
 - 启动自动加载已有翻译模型。
-- 新增Whisper通用包和粤语增强包入口，按需安装。
 
-这是调试预发布版。10项单元测试和13项Android 15 x86_64模拟器离线测试通过；用户手机延迟、发热以及非英语识音准确率仍需实际验证。译音需要系统已有对应语言的离线TTS语音；收音语言需手动切换，切换应用或锁屏会停止收音。
+直接覆盖安装，**请勿先卸载**，以保留模型和历史。Android 8.0及以上，ARM64 / x86_64。
+APK不含大模型；原有模型和语音包继续使用，首次使用请在应用“我的→模型与离线资源”准备。
 
-### APK SHA-256
+调试版已完成构建及模拟器检查，实际手机识音效果、同传延迟、回声和发热仍需试用。语音需安装对应识音资源，朗读需系统离线TTS；需要手动选择收音方向。
 
-```text
-a7cf94f7df7bafcbda19233eb36c382ac571b2e92f7a5c7cbb1f5604ca521be4
-```
+## 旧分享链接兼容
+
+原 v0.2.0 下载路径继续保留，实际内容已替换为 v0.2.1（Android显示版本0.2.1，versionCode3）。新分享请使用上方 v0.2.1 链接。
