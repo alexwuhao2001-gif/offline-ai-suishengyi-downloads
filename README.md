@@ -1,25 +1,25 @@
-# 离线AI随声译 · APK 下载
+# 离线AI随声译 · APK下载
 
 alexwuhao 制作 · alexwuhao@163.com
 
-本仓库公开提供安装包与说明，源码保存在独立的私有仓库。
+## 最新版 v0.3.0 · 第三版
 
-## 最新版 v0.2.1 · 温暖卡通版
+**[免登录下载 Android APK](https://github.com/alexwuhao2001-gif/offline-ai-suishengyi-downloads/releases/download/v0.3.0/offline-ai-suishengyi-v0.3.0-debug.apk)**
 
-**[下载 Android APK（无需登录）](https://github.com/alexwuhao2001-gif/offline-ai-suishengyi-downloads/releases/download/v0.2.1/offline-ai-suishengyi-v0.2.1-debug.apk)**
+[版本与安装说明](https://github.com/alexwuhao2001-gif/offline-ai-suishengyi-downloads/releases/tag/v0.3.0)
 
-[版本与安装说明](https://github.com/alexwuhao2001-gif/offline-ai-suishengyi-downloads/releases/tag/v0.2.1)
+- 冰蓝、珠白、淡紫玻璃界面，立体小熊与语音球。
+- “我的→离线语音中心”：20种语言逐项查询、搜索与在线下载，通用/增强识音模型共享复用。
+- 下载进度、取消/重试、官方/校验镜像源；下载完成后离线使用。
+- 译文朗读独立分栏，显示系统实际安装的离线TTS及安装入口；部分语种可能没有系统离线声音。
+- 保留默认中英、1/2/3秒停顿、连续双语记录和模型自动加载。
 
-- 奶油白、森林绿、杏橙配色，小熊和小鸟陪伴交流；卡片首页与连续双语记录。
-- 同传停顿可选 **1、2、3 秒**，初始默认2秒，记住上次选择。
-- 20种语言文字互译，独立选择输入/目标语言；选择页支持搜索、确认和取消。
-- 启动自动加载已有翻译模型。
+请**直接覆盖安装，不要先卸载**，以保留已有模型和历史。Android8.0以上，ARM64/x86_64。APK不含大模型，首次使用请准备离线资源。
 
-直接覆盖安装，**请勿先卸载**，以保留模型和历史。Android 8.0及以上，ARM64 / x86_64。
-APK不含大模型；原有模型和语音包继续使用，首次使用请在应用“我的→模型与离线资源”准备。
+调试版已完成自动化与模拟器检查；手机上的识音准确率、同传延迟和发热仍需实际试用。需要手动选择收音方向，后台/锁屏同传未加入。
 
-调试版已完成构建及模拟器检查，实际手机识音效果、同传延迟、回声和发热仍需试用。语音需安装对应识音资源，朗读需系统离线TTS；需要手动选择收音方向。
+## 旧链接
 
-## 旧分享链接兼容
+原v0.2.0和v0.2.1路径保留，实际APK已更新为v0.3.0（versionCode4）。旧文件名仅为兼容分享地址，新分享建议使用上方v0.3.0链接。
 
-原 v0.2.0 下载路径继续保留，实际内容已替换为 v0.2.1（Android显示版本0.2.1，versionCode3）。新分享请使用上方 v0.2.1 链接。
+本公开仓库仅放安装包和说明，源码保存在独立私有仓库。
